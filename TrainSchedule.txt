@@ -1,0 +1,11 @@
+departurestation,arrivalstation,trainID,trianname,Date,Duration,Capacity,Fare
+Islamabad,Karachi,1234,karachitime,24oct2021,24 hours,20,2750
+Karachi,Islamabad,1234,karachitime,25oct2021,24 hours,20,2750
+Islamabad,Lahore,4321,FareedExpress,24oct2021,4 hours,20,750
+Lahore,Islamabad,4321,FareedExpress,25oct2021,4 hours,20,750
+Islamabad,Quetta,1212,Quettatime,25oct2021,30 hours,20,3000
+Quetta,Islamabad,1212,Quettatime,25oct2021,30 hours,20,3000
+Islamabad,Chaman,2121,BaluchistanExpress,26oct2021,30 hours,20,3500
+Chaman,Islamabad,2121,BaluchistanExpress,26oct2021,30 hours,20,3500
+Quetta,Chaman,4554,ACTime,270ct2021,5 hoirs,20,800
+Lahore,Quetta,5555,jaffarExpress,29oct2021,23 hours,20,2300

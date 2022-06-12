@@ -1,0 +1,10 @@
+username,password,cnic,fullname,emailID
+ahsan,12345,61101,ahsanqamar,ahsan@gmail
+gujjar,1111,11111,malikgujjar,gujjar@gmail
+name,0000,78900,fullname,email@gmail
+malik,9999,99900,malikhammad,hammad@gmail
+ammar,7890,77889,AmmarMalik,ammar@nu.edu.pk
+nayyar,6789,66778,nayyarshoaib,nayyar@gmail
+sabir,wqqw,1234567,saad,sabir@gmail.com
+faiq,4444,456789,faiqasif,faiq@gmail
+ali,5454,454545,ali ajmal,ali@gmail

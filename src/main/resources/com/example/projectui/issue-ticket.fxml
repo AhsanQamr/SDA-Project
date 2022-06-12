@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectui.IssueTicketController">
+   <children>
+      <Label alignment="CENTER" layoutX="46.0" layoutY="14.0" prefHeight="32.0" prefWidth="620.0" text="Please Select your desired Seat">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="101.0" layoutX="147.0" layoutY="87.0" startX="-100.0" />
+      <Line endX="-100.5" endY="271.5" layoutX="148.0" layoutY="132.0" startX="-101.5" startY="-44.5" />
+      <Line endX="-66.5" endY="283.5" layoutX="315.0" layoutY="119.0" startX="-66.5" startY="-32.0" />
+      <Line endX="102.0" layoutX="147.0" layoutY="148.0" startX="-100.0" />
+      <Line endX="99.0" layoutX="147.0" layoutY="205.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="146.0" layoutY="269.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="147.0" layoutY="336.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="148.0" layoutY="403.0" startX="-100.0" />
+      <Line endX="-82.0" endY="289.5" layoutX="231.0" layoutY="114.0" startX="-82.0" startY="-26.5" />
+      <Line endX="100.0" layoutX="565.0" layoutY="88.0" startX="-100.0" />
+      <Line endX="-112.5" endY="239.5" layoutX="577.0" layoutY="165.0" startX="-112.5" startY="-76.5" />
+      <Line endX="78.5" endY="229.5" layoutX="587.0" layoutY="175.0" startX="78.5" startY="-86.5" />
+      <Line endX="100.0" layoutX="565.0" layoutY="148.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="566.0" layoutY="206.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="567.0" layoutY="269.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="567.0" layoutY="336.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="565.0" layoutY="404.0" startX="-100.0" />
+      <Line endX="151.0" endY="15.5" layoutX="414.0" layoutY="73.0" startX="151.0" startY="331.5" />
+      <Button fx:id="bookseatsbutton" layoutX="530.0" layoutY="447.0" mnemonicParsing="false" onAction="#setbookseatsbutton" prefHeight="32.0" prefWidth="128.0" text="Book Selected Seats" />
+      <Button fx:id="issuebackbutton" layoutX="27.0" layoutY="447.0" mnemonicParsing="false" onAction="#setIssueBackButton" prefHeight="32.0" prefWidth="101.0" text="Back" />
+      <Label alignment="CENTER" layoutX="59.0" layoutY="101.0" prefHeight="39.0" prefWidth="80.0" text="A1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="159.0" layoutY="101.0" prefHeight="39.0" prefWidth="80.0" text="A2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="59.0" layoutY="157.0" prefHeight="39.0" prefWidth="80.0" text="A3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="159.0" layoutY="157.0" prefHeight="39.0" prefWidth="80.0" text="A4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="59.0" layoutY="218.0" prefHeight="39.0" prefWidth="80.0" text="A5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="159.0" layoutY="218.0" prefHeight="39.0" prefWidth="80.0" text="A6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="59.0" layoutY="282.0" prefHeight="39.0" prefWidth="80.0" text="A7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="159.0" layoutY="282.0" prefHeight="39.0" prefWidth="80.0" text="A8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="59.0" layoutY="349.0" prefHeight="39.0" prefWidth="80.0" text="A9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="159.0" layoutY="349.0" prefHeight="39.0" prefWidth="80.0" text="A10">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="478.0" layoutY="101.0" prefHeight="39.0" prefWidth="80.0" text="A11">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="577.0" layoutY="101.0" prefHeight="39.0" prefWidth="80.0" text="A12">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="478.0" layoutY="157.0" prefHeight="39.0" prefWidth="80.0" text="A13">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="577.0" layoutY="157.0" prefHeight="39.0" prefWidth="80.0" text="A14">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="478.0" layoutY="218.0" prefHeight="39.0" prefWidth="80.0" text="A15">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="577.0" layoutY="218.0" prefHeight="39.0" prefWidth="80.0" text="A16">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="478.0" layoutY="282.0" prefHeight="39.0" prefWidth="80.0" text="A17">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="577.0" layoutY="282.0" prefHeight="39.0" prefWidth="80.0" text="A18">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="478.0" layoutY="349.0" prefHeight="39.0" prefWidth="80.0" text="A19">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="577.0" layoutY="349.0" prefHeight="39.0" prefWidth="80.0" text="A20">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="213.0" layoutY="418.0" prefHeight="17.0" prefWidth="245.0" text="Please Enter Seat no. in alphanumeric form">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textfieldissue" layoutX="239.0" layoutY="447.0" prefHeight="32.0" prefWidth="181.0" promptText="enter Seats" />
+      <Label fx:id="promptatissue" alignment="CENTER" layoutX="260.0" layoutY="376.0" prefHeight="24.0" prefWidth="181.0" text="*">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

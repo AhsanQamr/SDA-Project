@@ -1,0 +1,8 @@
+TrainID,cnic,ArrivalStation,DepartureStation,FullName,Seatno,Ticketno,Fare
+4321,61101,Islamabad,Lahore,ahsanqamar,2,5355,750
+4321,11111,Islamabad,Lahore,malikgujjar,20,6655,750
+1234,77889,Karachi,Islamabad,AmmarMalik,19,7982,2750
+4554,66778,Chaman,Quetta,nayyarshoaib,16,6551,800
+1234,1234567,Karachi,Islamabad,saad,12,8143,2750
+1234,456789,Karachi,Islamabad,faiqasif,15,8116,2750
+4321,454545,Lahore,Islamabad,ali ajmal,9,5430,750

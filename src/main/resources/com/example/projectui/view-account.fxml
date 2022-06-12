@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectui.AccountViewController">
+   <children>
+      <Line endX="292.0" endY="1.5" layoutX="275.0" layoutY="93.0" startX="-241.0" />
+      <Line endX="-101.5" endY="262.0" layoutX="135.0" layoutY="119.0" startX="-101.5" startY="-25.5" />
+      <Line endX="431.0" layoutX="135.0" layoutY="382.0" startX="-100.0" />
+      <Line endX="125.5" endY="202.5" layoutX="441.0" layoutY="179.0" startX="125.5" startY="-84.0" />
+      <Line endX="-100.5" endY="273.5" layoutX="401.0" layoutY="108.0" startX="-100.5" startY="-12.79290771484375" />
+      <Line endX="430.0" endY="-15.0" layoutX="136.0" layoutY="161.0" startX="-102.0" startY="-15.0" />
+      <Line endX="430.0" endY="-12.0" layoutX="137.0" layoutY="214.0" startX="-103.0" startY="-12.0" />
+      <Line endX="430.0" layoutX="136.0" layoutY="262.0" startX="-100.0" />
+      <Line endX="429.0" layoutX="137.0" layoutY="320.0" startX="-104.0" />
+      <Button fx:id="backbutton" layoutX="14.0" layoutY="18.0" mnemonicParsing="false" onAction="#setBackButtonviewAccount" text="Back" />
+      <Label alignment="CENTER" layoutX="84.0" layoutY="21.0" prefHeight="50.0" prefWidth="424.0" text="ACCOUNT VIEW">
+         <font>
+            <Font name="Britannic Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="56.0" layoutY="101.0" prefHeight="39.0" prefWidth="223.0" text="Full Name:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="56.0" layoutY="153.0" prefHeight="39.0" prefWidth="223.0" text="Username:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="56.0" layoutY="210.0" prefHeight="39.0" prefWidth="223.0" text="Email id:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="56.0" layoutY="273.0" prefHeight="39.0" prefWidth="223.0" text="Cnic No. :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="56.0" layoutY="330.0" prefHeight="39.0" prefWidth="223.0" text="Password:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="accfullnamelabel" alignment="CENTER" layoutX="321.0" layoutY="101.0" prefHeight="39.0" prefWidth="223.0" text="-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="accusernamelabel" alignment="CENTER" layoutX="321.0" layoutY="153.0" prefHeight="39.0" prefWidth="223.0" text="-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="accemaillabel" alignment="CENTER" layoutX="321.0" layoutY="218.0" prefHeight="39.0" prefWidth="223.0" text="-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="acccniclabel" alignment="CENTER" layoutX="321.0" layoutY="273.0" prefHeight="39.0" prefWidth="223.0" text="-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="accpswdlabel" alignment="CENTER" layoutX="321.0" layoutY="330.0" prefHeight="39.0" prefWidth="223.0" text="-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
